@@ -102,3 +102,6 @@ Start-up:
 
 Action Dispatch is the routing component of the Rails framework
 
+# Rack
+  * https://www.engineyard.com/blog/understanding-rack-apps-and-middleware
+
