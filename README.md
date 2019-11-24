@@ -106,4 +106,5 @@ Action Dispatch is the routing component of the Rails framework
   * https://www.engineyard.com/blog/understanding-rack-apps-and-middleware
   * https://auth0.com/blog/ruby-authentication-secure-rack-apps-with-jwt/
   * https://stackoverflow.com/questions/16577139/trigger-basic-http-auth-from-within-middleware
+  * https://dzone.com/articles/ruby-authentication-secure-your-rack-application-w
 
