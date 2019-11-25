@@ -110,6 +110,35 @@ Action Dispatch is the routing component of the Rails framework
   * https://www.justinweiss.com/articles/a-web-server-vs-an-app-server/
 
 
+#Exceptions:
+NoMemoryError
+IOError
+EOFError NameError, NoMethodError ThreadError TypeError ZeroDivisionError
+
+begin
+  error_prone_code()
+rescue => detail
+  print
+end
+
+Fiber => light weight concurrency
+
+# GC=> mark & sweep
+   uses “malloc” and “free” C funtions
+   Ruby stops running your program in order to do garbage collection!
+
+Ruby 2.1 added generational garbage collection (long and new gen) - minor-major runs. eden
+
+Ruby, version 2.2, had another improvement to garbage collection: incremental garbage collection. This approach involves running shorter mark-and-sweep passes more frequently. It means spending the same amount of time in garbage collection overall, but in more frequent and shorter bursts. Since the pauses are shorter, there’s less impact on the program.
+
+https://stackify.com/how-does-ruby-garbage-collection-work-a-simple-tutorial/
+
+https://thorstenball.com/blog/2014/03/12/watching-understanding-ruby-2.1-garbage-collector/
+
+https://samsaffron.com/archive/2014/04/08/ruby-2-1-garbage-collection-ready-for-production
+
+
+
 # Rspec
 
 rspec
