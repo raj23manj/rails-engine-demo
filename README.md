@@ -138,6 +138,27 @@ https://thorstenball.com/blog/2014/03/12/watching-understanding-ruby-2.1-garbage
 https://samsaffron.com/archive/2014/04/08/ruby-2-1-garbage-collection-ready-for-production
 
 
+Memory Leak
+
+https://www.toptal.com/ruby/hunting-ruby-memory-issues
+
+
+ Object.class
+ => Class
+ :008 > Object.superclass
+ => BasicObject
+ :009 > Module.superclass
+ => Object
+ :010 > Class.class
+ => Class
+ :011 > Class.superclass
+ => Module
+
+RPC => gruf
+
+https://medium.com/@shiladitya16/building-micro-services-using-grpc-on-ruby-41acb755ee06
+
+
 
 # Rspec
 
@@ -768,3 +789,8 @@ ch9 :
 ch 10 :
 
 fixtures and Factories
+
+
+
+Microservices
+https://karolgalanciak.com/blog/2019/11/30/from-activerecord-callbacks-to-publish-slash-subscribe-pattern-and-event-driven-design/
