@@ -797,3 +797,6 @@ https://karolgalanciak.com/blog/2019/11/30/from-activerecord-callbacks-to-publis
 
 # Rails Serializations
   https://buttercms.com/blog/json-serialization-in-rails-a-complete-guide
+  
+# api good
+  https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one
