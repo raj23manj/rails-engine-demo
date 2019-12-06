@@ -800,3 +800,4 @@ https://karolgalanciak.com/blog/2019/11/30/from-activerecord-callbacks-to-publis
   
 # api good
   https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one
+  https://blog.codeship.com/building-a-json-api-with-rails-5/
